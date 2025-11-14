@@ -1,0 +1,12 @@
+{
+    "name": "fizzbuzz-tdd-exercise",
+    "version": "1.0.0",
+    "description": "FizzBuzz TDD exercise in JavaScript using Jasmine",
+    "main": "src/fizzbuzz.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "devDependencies": {
+        "jasmine": "^5.1.0"
+    }
+}
