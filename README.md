@@ -38,7 +38,7 @@ Node version defaults to a very old version on Phil’s machine. To fix this, en
 
 ## Installing watchexec
 
-The `watch-test.sh` script requires `watchexec` to be installed. If you get a "command not found" error, install it with:
+The `watch-test.sh` script requires `watchexec` to be installed on WSL2. If you get a "command not found" error, install it with:
 
 ```bash
 cd /tmp
