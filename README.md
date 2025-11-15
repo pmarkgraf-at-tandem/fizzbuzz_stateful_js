@@ -36,4 +36,22 @@ Node version defaults to a very old version on Phil’s machine. To fix this, en
    nvm use 22.11.0
    ```
 
+## Installing watchexec
+
+The `watch-test.sh` script requires `watchexec` to be installed. If you get a "command not found" error, install it with:
+
+```bash
+cd /tmp
+wget https://github.com/watchexec/watchexec/releases/download/v1.25.1/watchexec-1.25.1-x86_64-unknown-linux-gnu.tar.xz
+tar -xf watchexec-1.25.1-x86_64-unknown-linux-gnu.tar.xz
+sudo cp watchexec-1.25.1-x86_64-unknown-linux-gnu/watchexec /usr/local/bin/
+rm -rf watchexec-1.25.1-*
+```
+
+Verify installation:
+
+```bash
+watchexec --version
+```
+
 ## end
