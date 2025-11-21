@@ -1,8 +1,14 @@
 // FizzBuzz implementation for TDD exercise
 class Fizzbuzz {
-    constructor() { }
+    constructor() { 
+        this.counter = 0;
+
+    }
     fizzbuzz() {
-        return "";
+        this.counter +=1;
+
+
+        return this.counter.toString();
     }
 }
 
